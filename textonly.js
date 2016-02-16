@@ -10,15 +10,3 @@ for(var i = 0; i < items.length; i++){
     $('body').append(items[i]);
   }
 }
-
-//
-// for(var i = 0; i < p.length; i++){
-//   console.log(p[i]);
-//   $('body').append(p[i]);
-// }
-
-//
-// for(var i = 0; i < p.length; i++){
-//   $('body').append(p[i].innerHTML);
-//   console.log(p[i]);
-// }
