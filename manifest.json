@@ -1,0 +1,21 @@
+{
+  "name": "TextOnly",
+  "manifest_version": 2,
+  "description": "Displays text only on a page.",
+  "version": "0.1",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["jquery.min.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "pic.ico"
+  },
+  "permissions": ["activeTab"]
+}
